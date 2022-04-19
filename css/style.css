@@ -70,10 +70,13 @@ ul {
   margin-left: 27px;
 }
 
+.main__search-menu {
+  padding: 56px 0px;
+}
+
 .search-menu__input {
   width: 100%;
   height: 24px;
-  margin: 56px 0px;
   background-color: #fff;
   border: none;
   border-bottom: 1px solid rgb(117, 117, 117, 0.3);
@@ -91,13 +94,13 @@ input[type="search"]::-webkit-search-results-decoration {
   outline: unset;
 }
 
-.page-main__title {
+.main__title {
   padding-bottom: 16px;
   font-weight: 400;
   font-size: 22px;
 }
 
-.page-main__restaurants {
+.main__restaurants {
   margin: 0;
   padding: 0;
   display: flex;
@@ -127,23 +130,23 @@ input[type="search"]::-webkit-search-results-decoration {
   color: #82c281;
 }
 
-.page-main__card-title {
+.main__card-title {
   font-weight: 400;
   font-size: 16px;
 }
 
-.page-main__kitchen {
+.main__kitchen {
   font-size: 14px;
   color: #626262;
 }
 
-.page-footer {
+.footer {
   margin-top: 68px;
   background-color: #262626;
   color: #fff;
 }
 
-.page-footer__logo {
+.footer__logo {
   width: 100%;
   height: 116px;
   margin-bottom: 32px;
@@ -152,12 +155,12 @@ input[type="search"]::-webkit-search-results-decoration {
   border-bottom: 1px solid rgb(255, 255, 255, 0.4);
 }
 
-page-footer__logo a {
+footer__logo a {
   width: 191px;
   height: 20px;
 }
 
-.page-footer__info {
+.footer__info {
   width: 100%;
   padding-bottom: 40px;
   display: flex;
@@ -165,12 +168,12 @@ page-footer__logo a {
 }
 
 @media (max-width: 767px) {
-  .page-footer__contacts {
+  .footer__contacts {
     margin-bottom: 32px;
   }
 }
 
-.page-footer__dropdown {
+.footer__dropdown {
   width: 227px;
   height: 40px;
   margin-bottom: 32px;
@@ -182,11 +185,11 @@ page-footer__logo a {
   border-radius: 2px;
 }
 
-.page-footer__dropdown:hover {
+.footer__dropdown:hover {
   box-shadow: 0 0 3px #fff;
 }
 
-.page-footer__dropdown select {
+.footer__dropdown select {
   width: 100%;
   height: 40px;
   margin-left: 17px;
@@ -211,32 +214,32 @@ page-footer__logo a {
   color: #fff;
 }
 
-.page-footer__social-links {
+.footer__social-links {
   width: 100px;
   display: flex;
   justify-content: space-between;
 }
 
 @media (max-width: 767px) {
-  .page-footer__block-group {
+  .footer__block-group {
     margin-bottom: 23px;
   }
 }
 
-.page-footer__block-group li + li {
+.footer__block-group li + li {
   margin-top: 23px;
 }
 
-.page-footer__block-group a {
+.footer__block-group a {
   text-decoration: none;
   color: #fff;
 }
 
-.page-footer__block-group a:hover {
+.footer__block-group a:hover {
   color: #82c281;
 }
 
-.page-footer__applications {
+.footer__applications {
   width: 100%;
   padding-top: 40px;
   padding-bottom: 40px;
@@ -248,13 +251,13 @@ page-footer__logo a {
 }
 
 @media (max-width: 320px) {
-  .page-footer__applications {
+  .footer__applications {
     flex-direction: column;
     row-gap: 8px;
   }
 }
 
-.page-footer__copyright {
+.footer__copyright {
   width: 100%;
   padding-top: 40px;
   padding-bottom: 40px;
@@ -266,12 +269,12 @@ page-footer__logo a {
   font-size: 11px;
 }
 
-.page-footer__copyright a {
+.footer__copyright a {
   text-decoration: none;
   color: #fff;
 }
 
-.page-footer__copyright a:hover {
+.footer__copyright a:hover {
   color: #82c281;
 }
 
@@ -294,3 +297,5 @@ page-footer__logo a {
     height: 64px;
   }
 }
+
+/* Restaurant - Pushkin */
