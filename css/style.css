@@ -402,7 +402,7 @@ footer__logo a {
   overflow: hidden;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: end;
 }
 
 .snacks-card__item_img img {
@@ -527,13 +527,13 @@ footer__logo a {
     margin-bottom: 12px;
   }
   hr {
+    margin-right: 45%;
     margin-bottom: 43px;
+    margin-left: 45%;
     visibility: visible;
+    text-align: center;
     border: none;
     border-bottom: 1px solid #757575;
-    -webkit-margin-start: 45%;
-    -webkit-margin-end: 45%;
-    text-align: center;
   }
   .snacks-card {
     margin-top: 0;
@@ -555,9 +555,6 @@ footer__logo a {
   .info-ingredients {
     margin-top: 32px;
   }
-  .snacks-card__item_img {
-    overflow: unset;
-  }
 }
 
 @media only screen and (min-width: 324.5px) and (max-width: 575.5px) {
@@ -566,17 +563,17 @@ footer__logo a {
     margin-bottom: 40px;
   }
   .snacks__title {
-    text-align: center;
     margin-bottom: 12px;
+    text-align: center;
   }
   hr {
+    margin-right: 45%;
     margin-bottom: 43px;
+    margin-left: 45%;
     visibility: visible;
+    text-align: center;
     border: none;
     border-bottom: 1px solid #757575;
-    -webkit-margin-start: 45%;
-    -webkit-margin-end: 45%;
-    text-align: center;
   }
   .snacks-card {
     margin-top: 0;
@@ -596,7 +593,7 @@ footer__logo a {
     font-size: 14px;
   }
   .info-ingredients {
-    margin-top: 24px;
+    margin-top: 32px;
   }
 }
 
