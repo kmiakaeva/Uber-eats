@@ -56,7 +56,7 @@ hr {
   align-items: center;
 }
 
-.header__sign-in {
+.header__info-sign-in {
   padding: 14px 20px;
   background-color: unset;
   border-radius: 2px;
@@ -66,11 +66,11 @@ hr {
   color: #1d1d1d;
 }
 
-.header__sign-in:hover {
+.header__info-sign-in:hover {
   background-color: #f4f4f4;
 }
 
-.header__basket {
+.header__info-basket {
   margin-left: 27px;
 }
 
@@ -78,7 +78,7 @@ hr {
   padding: 56px 0px;
 }
 
-.search-menu__input {
+.main__search-menu-input {
   width: 100%;
   height: 24px;
   background-color: #fff;
@@ -94,21 +94,21 @@ input[type="search"]::-webkit-search-results-decoration {
   display: none;
 }
 
-.search-menu__input:focus {
+.main__search-menu-input:focus {
   outline: unset;
 }
 
-.main__section-menu {
+.main__menu {
   margin-bottom: 68px;
 }
 
-.main__title {
+.main__menu-title {
   padding-bottom: 16px;
   font-weight: 400;
   font-size: 22px;
 }
 
-.main__restaurants {
+.main__menu-restaurants {
   margin: 0;
   padding: 0;
   display: flex;
@@ -116,34 +116,34 @@ input[type="search"]::-webkit-search-results-decoration {
   justify-content: space-between;
 }
 
-.menu-product {
+.main__menu-restaurants-product {
   margin-bottom: 16px;
 }
 
-.menu-product__img img {
+.main__menu-restaurants_img img {
   width: 100%;
   background-size: cover;
 }
 
-.menu-product__info {
+.main__menu-restaurants-info {
   margin-top: 16px;
 }
 
-.menu-product__info a {
+.main__menu-restaurants-info a {
   text-decoration: none;
   color: #1d1d1d;
 }
 
-.menu-product__info a:hover {
+.main__menu-restaurants-info a:hover {
   color: #82c281;
 }
 
-.main__card-title {
+.main__menu-restaurants-info h2 {
   font-weight: 400;
   font-size: 16px;
 }
 
-.main__kitchen {
+.main__menu-restaurants-info-kitchen {
   font-size: 14px;
   color: #626262;
 }
@@ -162,7 +162,7 @@ input[type="search"]::-webkit-search-results-decoration {
   border-bottom: 1px solid rgb(255, 255, 255, 0.4);
 }
 
-footer__logo a {
+.footer__logo a {
   width: 191px;
   height: 20px;
 }
@@ -174,7 +174,7 @@ footer__logo a {
   flex-wrap: wrap;
 }
 
-.footer__dropdown {
+.footer__info-contacts-dropdown {
   width: 227px;
   height: 40px;
   margin-bottom: 32px;
@@ -186,11 +186,11 @@ footer__logo a {
   border-radius: 2px;
 }
 
-.footer__dropdown:hover {
+.footer__info-contacts-dropdown:hover {
   box-shadow: 0 0 3px #fff;
 }
 
-.footer__dropdown select {
+.footer__info-contacts-dropdown select {
   width: 100%;
   height: 40px;
   margin-left: 17px;
@@ -202,36 +202,36 @@ footer__logo a {
   cursor: pointer;
 }
 
-.hashtag-text {
+.footer__info-contacts-hashtag {
   margin-bottom: 20px;
 }
 
-.hashtag-text_green {
+.footer__info-contacts-hashtag_green {
   margin: 0;
   font-size: 16px;
   color: #49a144;
 }
 
-.hashtag-text_white {
+.footer__info-contacts-hashtag_white {
   color: #fff;
 }
 
-.footer__social-links {
+.footer__info-social-links {
   width: 100px;
   display: flex;
   justify-content: space-between;
 }
 
-.footer__block-group li + li {
+.footer__info-block-group li + li {
   margin-top: 23px;
 }
 
-.footer__block-group a {
+.footer__info-block-group a {
   text-decoration: none;
   color: #fff;
 }
 
-.footer__block-group a:hover {
+.footer__info-block-group a:hover {
   color: #82c281;
 }
 
@@ -267,7 +267,7 @@ footer__logo a {
   color: #82c281;
 }
 
-.button_arrow-up {
+.button-arrow-up {
   position: fixed;
   right: 16px;
   bottom: 24px;
@@ -282,7 +282,7 @@ footer__logo a {
 
 /* Restaurant - Pushkin */
 
-.section-banner {
+.banner {
   width: 100%;
   height: 364px;
   background-position: center;
@@ -291,19 +291,19 @@ footer__logo a {
   background-image: url("../img/background-img.svg");
 }
 
-.section-banner__card-wrap {
+.banner__wrap {
   height: 364px;
   align-items: center;
 }
 
-.section-banner__card {
+.banner__card {
   padding: 38px;
   background-color: #fff;
   box-shadow: 0px 0px 16px rgba(117, 117, 117, 0.2);
   border-radius: 2px;
 }
 
-.section-banner__card h1 {
+.banner__card h1 {
   margin-bottom: 54px;
   font-weight: 400;
   font-size: 36px;
@@ -311,19 +311,19 @@ footer__logo a {
   color: #1d1d1d;
 }
 
-.section-banner__card-text {
+.banner__card-text {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-.section-banner__kitchen {
+.banner__card-text-kitchen {
   margin: 0;
   font-size: 14px;
   color: #626262;
 }
 
-.section-banner__time {
+.banner__card-text-time {
   width: 100px;
   height: 32px;
   display: flex;
@@ -333,7 +333,7 @@ footer__logo a {
   border-radius: 16px;
 }
 
-.section-banner__time p {
+.banner__card-text-time p {
   color: #fff;
 }
 
@@ -360,7 +360,7 @@ footer__logo a {
   color: #327430;
 }
 
-.section-snacks {
+.snacks {
   margin-top: 56px;
   margin-bottom: 80px;
 }
@@ -398,6 +398,34 @@ footer__logo a {
   cursor: pointer;
 }
 
+.snacks-card__item-info {
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.snacks-card__item-info h3 {
+  font-weight: 400;
+  font-size: 16px;
+  color: #1d1d1d;
+}
+
+.snacks-card__item-info-ingredients {
+  position: absolute;
+  margin-top: 28px;
+  color: #626262;
+}
+
+.snacks-card__item-info p {
+  margin: 0;
+  font-weight: 500;
+  font-size: 15px;
+  color: #1d1d1d;
+}
+
 .snacks-card__item_img {
   overflow: hidden;
   display: flex;
@@ -410,38 +438,10 @@ footer__logo a {
   width: auto;
 }
 
-.snacks-card__info {
-  padding-top: 16px;
-  padding-bottom: 16px;
-  padding-left: 16px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
-.snacks-card__info h3 {
-  font-weight: 400;
-  font-size: 16px;
-  color: #1d1d1d;
-}
-
-.info-ingredients {
-  position: absolute;
-  margin-top: 28px;
-  color: #626262;
-}
-
-.snacks-card__info p {
-  margin: 0;
-  font-weight: 500;
-  font-size: 15px;
-  color: #1d1d1d;
-}
-
 /* Медиазапросы */
 
 @media only screen and (max-width: 767.5px) {
-  .footer__block-group {
+  .footer__info-block-group {
     margin-bottom: 23px;
   }
 }
@@ -454,59 +454,59 @@ footer__logo a {
 }
 
 @media only screen and (max-width: 767.5px) {
-  .footer__contacts {
+  .footer__info-contacts {
     margin-bottom: 32px;
   }
-  .button_arrow-up {
+  .button-arrow-up {
     width: 64px;
     height: 64px;
   }
 }
 
 @media only screen and (max-width: 575.5px) {
-  .section-banner {
+  .banner {
     height: 255px;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     background-image: url("../img/background-xs-img.svg");
   }
-  .section-banner__card-wrap {
+  .banner__wrap {
     height: 364px;
     align-items: flex-end;
   }
-  .section-banner__card {
+  .banner__card {
     padding: 24px 49px;
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-  .section-banner__card h1 {
+  .banner__card h1 {
     margin-bottom: 40px;
     font-size: 24px;
   }
-  .section-banner__card-text {
+  .banner__card-text {
     flex-direction: column;
   }
-  .section-banner__kitchen {
+  .banner__card-text-kitchen {
     padding-bottom: 16px;
   }
 }
 
 @media only screen and (min-width: 767.5px) and (max-width: 1023.5px) {
-  .section-banner {
+  .banner {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     background-image: url("../img/background-md-img.svg");
   }
-  .section-banner__card {
+  .banner__card {
     padding: 38px 52px 38px 48px;
   }
 }
 
 @media only screen and (max-width: 991.5px) {
-  .section-banner__time {
+  .banner__card-text-time {
     width: 94px;
   }
 }
@@ -518,7 +518,7 @@ footer__logo a {
 }
 
 @media only screen and (max-width: 324.5px) {
-  .section-snacks {
+  .snacks {
     margin-top: 150px;
     margin-bottom: 40px;
   }
@@ -546,19 +546,19 @@ footer__logo a {
     border: none;
     border-bottom: 1px solid rgba(117, 117, 117, 0.2);
   }
-  .snacks-card__info {
+  .snacks-card__item-info {
     padding: 0 0 15px 0;
   }
-  .snacks-card__info h3 {
+  .snacks-card__item-info h3 {
     font-size: 14px;
   }
-  .info-ingredients {
+  .snacks-card__item-info-ingredients {
     margin-top: 32px;
   }
 }
 
 @media only screen and (min-width: 324.5px) and (max-width: 575.5px) {
-  .section-snacks {
+  .snacks {
     margin-top: 150px;
     margin-bottom: 40px;
   }
@@ -586,19 +586,19 @@ footer__logo a {
     border: none;
     border-bottom: 1px solid rgba(117, 117, 117, 0.2);
   }
-  .snacks-card__info {
+  .snacks-card__item-info {
     padding: 0 0 15px 0;
   }
-  .snacks-card__info h3 {
+  .snacks-card__item-info h3 {
     font-size: 14px;
   }
-  .info-ingredients {
+  .snacks-card__item-info-ingredients {
     margin-top: 32px;
   }
 }
 
 @media only screen and (min-width: 767.5px) and (max-width: 1023.5px) {
-  .section-snacks {
+  .snacks {
     margin-bottom: 48px;
   }
   .snacks-card {

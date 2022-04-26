@@ -38,8 +38,8 @@
             </div>
 
             <div class="header__info">
-              <a class="header__sign-in" href="#"> Войти </a>
-              <a class="header__basket hidden-xs" href="#"
+              <a class="header__info-sign-in" href="#"> Войти </a>
+              <a class="header__info-basket hidden-xs" href="#"
                 ><img src="icons/basket-icon.svg" alt="User basket"
               /></a>
             </div>
@@ -48,15 +48,15 @@
       </div>
     </header>
 
-    <section class="section-banner">
+    <section class="banner">
       <div class="container">
-        <div class="row section-banner__card-wrap">
+        <div class="row banner__wrap">
           <div class="col-xl-5 col-lg-5 col-md-7 col-sm-10 col-xs-12">
-            <div class="section-banner__card">
+            <div class="banner__card">
               <h1>Трактир «Пушкин»</h1>
-              <div class="section-banner__card-text">
-                <p class="section-banner__kitchen">₽₽₽ • Европейская</p>
-                <div class="section-banner__time"><p>40 - 50 мин</p></div>
+              <div class="banner__card-text">
+                <p class="banner__card-text-kitchen">₽₽₽ • Европейская</p>
+                <div class="banner__card-text-time"><p>40 - 50 мин</p></div>
               </div>
             </div>
           </div>
@@ -83,7 +83,7 @@
       </div>
     </header>
 
-    <section class="section-snacks">
+    <section class="snacks">
       <div class="container">
         <h2 class="snacks__title">Закуски</h2>
         <hr />
@@ -91,9 +91,11 @@
           <ul class="snacks-card">
             <li class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12">
               <div class="snacks-card__item">
-                <div class="snacks-card__info">
+                <div class="snacks-card__item-info">
                   <h3>Сельдь на бородинском хлебе</h3>
-                  <div class="info-ingredients">С яйцом и огурцом</div>
+                  <div class="snacks-card__item-info-ingredients">
+                    С яйцом и огурцом
+                  </div>
                   <p>240 ₽</p>
                 </div>
                 <div class="snacks-card__item_img">
@@ -107,7 +109,7 @@
 
             <li class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12">
               <div class="snacks-card__item">
-                <div class="snacks-card__info">
+                <div class="snacks-card__item-info">
                   <h3>Соленья ассорти</h3>
                   <p>320 ₽</p>
                 </div>
@@ -122,7 +124,7 @@
 
             <li class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12">
               <div class="snacks-card__item">
-                <div class="snacks-card__info">
+                <div class="snacks-card__item-info">
                   <h3>Грибы маринованные</h3>
                   <p>300 ₽</p>
                 </div>
@@ -137,7 +139,7 @@
 
             <li class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12">
               <div class="snacks-card__item">
-                <div class="snacks-card__info">
+                <div class="snacks-card__item-info">
                   <h3>Сало домашнее с горчицей</h3>
                   <p>320 ₽</p>
                 </div>
@@ -149,7 +151,7 @@
 
             <li class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12">
               <div class="snacks-card__item">
-                <div class="snacks-card__info">
+                <div class="snacks-card__item-info">
                   <h3>Малосольная семга</h3>
                   <p>390 ₽</p>
                 </div>
@@ -164,7 +166,7 @@
 
             <li class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12">
               <div class="snacks-card__item">
-                <div class="snacks-card__info">
+                <div class="snacks-card__item-info">
                   <h3>Язык говяжий с хреном</h3>
                   <p>350 ₽</p>
                 </div>
@@ -195,8 +197,8 @@
 
         <div class="row footer__info">
           <div class="col-lg-4 col-xl-4 col-md-4 col-sm-12 col-xs-12">
-            <div class="footer__contacts">
-              <div class="footer__dropdown">
+            <div class="footer__info-contacts">
+              <div class="footer__info-contacts-dropdown">
                 <img src="icons/world-icon.svg" alt="World" />
                 <select name="language">
                   <option value="russian">Русский</option>
@@ -204,13 +206,15 @@
                 </select>
               </div>
 
-              <div class="hashtag-text">
-                <p class="hashtag-text_green">
-                  #<span class="hashtag-text_white">UberEats</span>
+              <div class="footer__info-contacts-hashtag">
+                <p class="footer__info-contacts-hashtag_green">
+                  #<span class="footer__info-contacts-hashtag_white"
+                    >UberEats</span
+                  >
                 </p>
               </div>
 
-              <div class="footer__social-links">
+              <div class="footer__info-social-links">
                 <a href="#"
                   ><img src="icons/facebook-icon.svg" alt="Facebook"
                 /></a>
@@ -225,7 +229,7 @@
           </div>
 
           <div
-            class="col-lg-4 col-xl-4 col-md-4 col-sm-12 col-xs-12 footer__block-group"
+            class="col-lg-4 col-xl-4 col-md-4 col-sm-12 col-xs-12 footer__info-block-group"
           >
             <ul>
               <li>
@@ -241,7 +245,7 @@
           </div>
 
           <div
-            class="col-lg-4 col-xl-4 col-md-4 col-sm-12 col-xs-12 footer__block-group"
+            class="col-lg-4 col-xl-4 col-md-4 col-sm-12 col-xs-12 footer__info-block-group"
           >
             <ul>
               <li>
@@ -282,8 +286,8 @@
         </div>
       </div>
 
-      <div class="button_arrow-up">
-        <a class="button_arrow-up" href="#"
+      <div class="button-arrow-up">
+        <a class="button-arrow-up" href="#"
           ><img src="icons/arrow-icon.svg" alt="Arrow-up" />
         </a>
       </div>
