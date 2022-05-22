@@ -64,6 +64,7 @@ hr {
   text-decoration: none;
   font-weight: 500;
   color: #1d1d1d;
+  transition: 0.5s all;
 }
 
 .header__info-sign-in:hover {
