@@ -64,11 +64,11 @@ hr {
   text-decoration: none;
   font-weight: 500;
   color: #1d1d1d;
-  transition: 0.5s all;
 }
 
 .header__info-sign-in:hover {
   background-color: #f4f4f4;
+  transition: 0.5s all;
 }
 
 .header__info-basket {
@@ -223,7 +223,7 @@ input[type="search"]::-webkit-search-results-decoration {
   justify-content: space-between;
 }
 
-.footer__info-block-group li + li {
+.footer__info-block-group li+li {
   margin-top: 23px;
 }
 
@@ -458,6 +458,7 @@ input[type="search"]::-webkit-search-results-decoration {
   .footer__info-contacts {
     margin-bottom: 32px;
   }
+
   .button-arrow-up {
     width: 64px;
     height: 64px;
@@ -472,23 +473,28 @@ input[type="search"]::-webkit-search-results-decoration {
     background-repeat: no-repeat;
     background-image: url("../img/background-xs-img.svg");
   }
+
   .banner__wrap {
     height: 364px;
     align-items: flex-end;
   }
+
   .banner__card {
     padding: 24px 49px;
     display: flex;
     flex-direction: column;
     align-items: center;
   }
+
   .banner__card h1 {
     margin-bottom: 40px;
     font-size: 24px;
   }
+
   .banner__card-text {
     flex-direction: column;
   }
+
   .banner__card-text-kitchen {
     padding-bottom: 16px;
   }
@@ -501,6 +507,7 @@ input[type="search"]::-webkit-search-results-decoration {
     background-repeat: no-repeat;
     background-image: url("../img/background-md-img.svg");
   }
+
   .banner__card {
     padding: 38px 52px 38px 48px;
   }
@@ -523,10 +530,12 @@ input[type="search"]::-webkit-search-results-decoration {
     margin-top: 150px;
     margin-bottom: 40px;
   }
+
   .snacks__title {
     text-align: center;
     margin-bottom: 12px;
   }
+
   hr {
     margin-right: 45%;
     margin-bottom: 43px;
@@ -536,23 +545,29 @@ input[type="search"]::-webkit-search-results-decoration {
     border: none;
     border-bottom: 1px solid #757575;
   }
+
   .snacks-card {
     margin-top: 0;
   }
+
   .snacks-card li {
     margin-top: 0;
   }
+
   .snacks-card__item {
     height: 102px;
     border: none;
     border-bottom: 1px solid rgba(117, 117, 117, 0.2);
   }
+
   .snacks-card__item-info {
     padding: 0 0 15px 0;
   }
+
   .snacks-card__item-info h3 {
     font-size: 14px;
   }
+
   .snacks-card__item-info-ingredients {
     margin-top: 32px;
   }
@@ -563,10 +578,12 @@ input[type="search"]::-webkit-search-results-decoration {
     margin-top: 150px;
     margin-bottom: 40px;
   }
+
   .snacks__title {
     margin-bottom: 12px;
     text-align: center;
   }
+
   hr {
     margin-right: 45%;
     margin-bottom: 43px;
@@ -576,23 +593,29 @@ input[type="search"]::-webkit-search-results-decoration {
     border: none;
     border-bottom: 1px solid #757575;
   }
+
   .snacks-card {
     margin-top: 0;
   }
+
   .snacks-card li {
     margin-top: 0;
   }
+
   .snacks-card__item {
     height: 102px;
     border: none;
     border-bottom: 1px solid rgba(117, 117, 117, 0.2);
   }
+
   .snacks-card__item-info {
     padding: 0 0 15px 0;
   }
+
   .snacks-card__item-info h3 {
     font-size: 14px;
   }
+
   .snacks-card__item-info-ingredients {
     margin-top: 32px;
   }
@@ -602,9 +625,11 @@ input[type="search"]::-webkit-search-results-decoration {
   .snacks {
     margin-bottom: 48px;
   }
+
   .snacks-card {
     margin-top: -32px;
   }
+
   .snacks-card li {
     margin-top: 32px;
   }
